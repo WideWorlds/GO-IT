@@ -3,36 +3,33 @@
 .logo-item {
     color:black;
     text-decoration: none;
-
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 .logo-item-white {
     color: white;
     text-decoration: none;
-
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 .logo-item-web {
     color:#2196F3;
     text-decoration: none;
-
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
@@ -41,10 +38,9 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -53,10 +49,9 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -70,10 +65,9 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
 }
 
@@ -87,6 +81,7 @@
 
 body {
     font-family: roboto, sans-sherif;
+    font-style: normal;
 }
 
 li {
@@ -98,11 +93,9 @@ li {
     color: #FFFFFF;
     background-color: #2F303A;
     text-decoration: none;
-
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -111,11 +104,9 @@ li {
 .title-header {
     color: #212121;
     list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -125,57 +116,57 @@ li {
     background-color: #2196F3;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.9;
     letter-spacing: 0.06em;
+}
+
+.favorite-styled-portfolio {
+    color: #000000;
+    background-color: #F5F4FA;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.favorite-styled-portfolio:hover,
+.favorite-styled-portfolio:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .main-section-header {
     color: #212121;
     list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .main-section-text {
     color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
 .profile-card-header {
     color: #212121;
-    list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .profile-card-text {
     color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
@@ -183,22 +174,15 @@ li {
 
 .portfolio-card-header {
     color: #212121;
-    list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .portfolio-card-text {
     color: #757575;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
 }
 
@@ -215,11 +199,8 @@ address {
 
 .address-text {
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
@@ -227,11 +208,8 @@ address {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
 
