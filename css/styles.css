@@ -33,9 +33,7 @@
 }
 
 .logo-item-web {
-    margin-top: 24px;
     margin-right: 93px;
-    margin-bottom: 25px;
     margin-left: 0px;
 
     color:#2196F3;
@@ -127,6 +125,25 @@ li {
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-two {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-three {
+    padding-bottom: 94px;
 }
 
 .title-hidden {
