@@ -13,8 +13,6 @@
 
 .auth-nav {
     margin-left: auto;
-    margin: 0;
-    padding: 0;
 }
 
 .page-header {
@@ -58,6 +56,17 @@
     letter-spacing: 0.03em;
 
 
+}
+
+.logo-item-web-bottom {
+    color:#2196F3;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
 }
 
 .header-nav {
@@ -128,16 +137,11 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 li {
     text-decoration: none;
     list-style-type: none;
-}
-
-li:not(:last-child) {
-    margin-right: 30px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -151,6 +155,22 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.items-portfolio {
+    display: flex;
+    margin: 0 auto;
+}
+
+.photos-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .hero-section {
@@ -169,13 +189,21 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 94px;
 }
 
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.team-member {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .title-hidden {
     display: none;
 }
 
 .item {
     width: 270px;
-    gap: 30px;
 }
 
 .title-text {
@@ -195,6 +223,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .title-header {
+    margin-bottom: 50px;
+
     color: #212121;
     list-style-type: none;
     font-weight: 700;
@@ -291,6 +321,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .footer-information {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 address {
@@ -298,6 +330,8 @@ address {
 }
 
 .address-text {
+    margin-top: 20px;
+
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.7;
@@ -305,6 +339,8 @@ address {
 }
 
 .address-info {
+    margin-top: 9px;
+
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     list-style-type: none;
