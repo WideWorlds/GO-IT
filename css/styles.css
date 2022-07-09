@@ -59,6 +59,9 @@
 }
 
 .logo-item-web-bottom {
+    display: block;
+    margin-bottom: 20px;
+
     color:#2196F3;
     text-decoration: none;
     font-family: Raleway, sans-serif;
@@ -198,6 +201,16 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 30px;
 }
 
+.portfolio-item {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    border-right: 1px solid #F5F4FA;
+    border-bottom: 1px solid #F5F4FA;
+    border-left: 1px solid #F5F4FA;
+}
+
 .title-hidden {
     display: none;
 }
@@ -270,6 +283,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .main-section-header {
+    margin-bottom: 10px;
+
     color: #212121;
     list-style-type: none;
     font-weight: 700;
@@ -287,6 +302,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .profile-card-header {
+    margin-bottom: 10px;
+
     color: #212121;
     font-weight: 500;
     font-size: 16px;
@@ -330,8 +347,6 @@ address {
 }
 
 .address-text {
-    margin-top: 20px;
-
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.7;
@@ -339,14 +354,16 @@ address {
 }
 
 .address-info {
-    margin-top: 9px;
-
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     list-style-type: none;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+
+.address-info:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 /* footer */
