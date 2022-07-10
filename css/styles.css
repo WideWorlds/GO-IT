@@ -168,6 +168,9 @@ h1, h2, h3, h4, h5, h6, p {
 .items-portfolio {
     display: flex;
     margin: 0 auto;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 8px;
 }
 
 .photos-portfolio {
@@ -266,6 +269,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .favorite-styled-portfolio {
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+
     color: #000000;
     background-color: #F5F4FA;
     text-decoration: none;
@@ -301,6 +308,10 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.03em;
 }
 
+.main-section-photo {
+
+}
+
 .profile-card-header {
     margin-bottom: 10px;
 
@@ -320,6 +331,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .portfolio-card-header {
+    margin-bottom: 4px;
+
     color: #212121;
     font-weight: 700;
     font-size: 18px;
@@ -347,6 +360,8 @@ address {
 }
 
 .address-text {
+    margin-bottom: 9px;
+
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.7;
