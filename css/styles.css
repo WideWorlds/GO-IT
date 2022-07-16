@@ -115,6 +115,8 @@
     color: #2196F3;
 }
 
+/*  
+
 .email-icon::before {
     display: inline-block;
     content: "";
@@ -125,6 +127,8 @@
     background-size: contain;
 }
 
+
+
 .smartphone-icon::before {
     display: inline-block;
     content: "";
@@ -134,6 +138,8 @@
     background-image: url(../images/smartphone-header-icon-grey.svg);
     background-size: contain;
 }
+
+*/
 
 .site-nav 
 .header-nav:not(:last-child),
