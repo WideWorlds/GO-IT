@@ -100,6 +100,9 @@
 }
 
 .header-contact {
+    display: flex;
+    align-items: center;
+
     color: #757575;
     text-decoration: none;
     list-style-type: none;
@@ -184,6 +187,31 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    width: 528px;
+    height: 581px;
+    background-color: #FFFFFF;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .benefits-list {
@@ -471,6 +499,18 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 10px;
 }
 
+.profile-card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card-icons:hover,
+.profile-card-icons:focus {
+    background-color: #2196F3;
+    fill: #FFFFFF;
+}
+
 .portfolio-card-header {
     margin-bottom: 4px;
 
@@ -491,6 +531,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* body */
 /* footer */
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
 
 .footer-information {
     background-color: #2F303A;
@@ -522,6 +567,10 @@ address {
 
 .address-info:not(:last-child) {
     margin-bottom: 9px;
+}
+
+.join-footer {
+    color: #FFFFFF;
 }
 
 /* footer */
