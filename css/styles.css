@@ -243,6 +243,11 @@ h1, h2, h3, h4, h5, h6, p {
     ),
     url(../images/hero-section-background.png);
     background-color: #2F303A;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -306,6 +311,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-image: url(../images/benefits-astronaut-icon4.svg);
 }
 
+/*
+
 .item-company::before {
     display: inline-block;
     content: "";
@@ -350,6 +357,8 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+*/
 
 .title-text {
     width: 696px;
