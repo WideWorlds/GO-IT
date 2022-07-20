@@ -118,6 +118,11 @@
     color: #2196F3;
 }
 
+.icon-email {
+    fill: currentColor;
+    margin-right: 10px;
+}
+
 /*  
 
 .email-icon::before {
@@ -508,7 +513,19 @@ h1, h2, h3, h4, h5, h6, p {
     gap: 10px;
 }
 
+.profile-card-icons-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.profile-card-icons-link:hover,
+.profile-card-icons-link:focus {
+    fill: #2196F3;
+}
+
 .profile-card-icons {
+    fill: currentColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -516,7 +533,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .profile-card-icons:hover,
 .profile-card-icons:focus {
-    background-color: #2196F3;
     fill: #FFFFFF;
 }
 
