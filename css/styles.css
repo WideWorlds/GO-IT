@@ -512,6 +512,7 @@ h1, h2, h3, h4, h5, h6, p {
 .profile-card-social {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .profile-card-icons-link {
@@ -521,15 +522,19 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: currentColor;
+    color: #AFB1B8;
 }
 
 .profile-card-icons-link:hover,
 .profile-card-icons-link:focus {
-    fill: #2196F3;
+    fill: currentColor;
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .profile-card-icons {
-    fill: #AFB1B8;
+    fill: currentColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -541,15 +546,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .companies-icons {
-    fill: #AFB1B8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.companies-icons:hover,
-.companies-icons:focus {
-    fill: #2196F3;
+    fill: currentColor;
 }
 
 .our-companies {
@@ -561,11 +558,13 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #AFB1B8;
 }
 
 .our-companies:hover,
 .our-companies:focus {
     border: 1px solid #2196F3;
+    color: #2196F3;
 }
 
 .portfolio-card-header {
@@ -590,8 +589,8 @@ h1, h2, h3, h4, h5, h6, p {
 /* footer */
 
 .footer-container {
-    display: flex;
-    align-items: baseline;
+   /* display: flex;
+    align-items: baseline; */
 }
 
 .footer-information {
@@ -627,6 +626,25 @@ address {
 }
 
 .join-footer {
+    color: #FFFFFF;
+}
+
+.footer-card-icons-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.footer-card-icons-link:hover,
+.footer-card-icons-link:focus {
+    fill: currentColor;
+    background-color: #2196F3;
     color: #FFFFFF;
 }
 
