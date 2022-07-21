@@ -506,6 +506,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 .profile-card-social {
@@ -517,6 +518,9 @@ h1, h2, h3, h4, h5, h6, p {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .profile-card-icons-link:hover,
@@ -525,7 +529,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .profile-card-icons {
-    fill: currentColor;
+    fill: #AFB1B8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -534,6 +538,34 @@ h1, h2, h3, h4, h5, h6, p {
 .profile-card-icons:hover,
 .profile-card-icons:focus {
     fill: #FFFFFF;
+}
+
+.companies-icons {
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies-icons:hover,
+.companies-icons:focus {
+    fill: #2196F3;
+}
+
+.our-companies {
+    display: inline-block;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-companies:hover,
+.our-companies:focus {
+    border: 1px solid #2196F3;
 }
 
 .portfolio-card-header {
