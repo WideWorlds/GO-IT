@@ -567,6 +567,17 @@ h1, h2, h3, h4, h5, h6, p {
     color: #2196F3;
 }
 
+.portfolio-shadow {
+    display: block;
+}
+
+.portfolio-shadow:hover,
+.portfolio-shadow:focus {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14),
+     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .portfolio-card-header {
     margin-bottom: 4px;
 
@@ -589,8 +600,12 @@ h1, h2, h3, h4, h5, h6, p {
 /* footer */
 
 .footer-container {
-   /* display: flex;
-    align-items: baseline; */
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container-3 {
+    margin-left: 70px;
 }
 
 .footer-information {
@@ -626,6 +641,12 @@ address {
 }
 
 .join-footer {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 

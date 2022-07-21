@@ -15,7 +15,7 @@
     <header class="page-header">
         <div class="container main-nav">
         <nav class="main-nav">
-        <a class="logo-item-web" href="./index.html">Web<span class="logo-item">Studio</span></a>
+            <a class="logo-item-web" href="./index.html">Web<span class="logo-item">Studio</span></a>
         <ul class="site-nav">
             <li class="header-nav"><a class="header-nav" href="./index.html">Студия</a></li>
             <li class="header-nav"><a class="header-nav-selected" href="./portfolio.html">Портфолио</a></li>
@@ -25,13 +25,17 @@
         <ul class="auth-nav main-nav">
             <li class="header-contact email-icon">
         <a class="header-contact" href="mailto:info@devstudio.com">
-            <svg width="16" height="12">
+            <svg class="icon-email" width="16" height="12">
                 <use href="./images/icomoon/symbol-defs.svg#icon-email-header-icon-envelope"></use>
             </svg>
-            info@devstudio.com"</a>
+            info@devstudio.com</a>
             </li>
             <li class="header-contact smartphone-icon">
-        <a class="header-contact" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="header-contact" href="tel:+380961111111">
+            <svg class="icon-email" width="10" height="16">
+                <use href="./images/icomoon/symbol-defs.svg#icon-smartphone-header-icon-grey"></use>
+            </svg>
+            +38 096 111 11 11</a>
             </li>
         </ul>
         </div>
@@ -65,76 +69,85 @@
             </ul>
             <ul class="photos-portfolio">
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio1.jpg" 
                     alt="ноутбук с командой людей" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header">Технокряк</h3>
                     <p class="portfolio-card-text">Веб-сайт</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio2.jpg" 
                     alt="баскетболисты" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Постер New Orlean vs Golden Star</h3>
                     <p class="portfolio-card-text">Дизайн</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio3.jpg" 
                     alt="рыба с подписью морская еда" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Ресторан Seafood</h3>
                     <p class="portfolio-card-text">Приложение</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio4.jpg" 
                     alt="накладные наушники" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Проект Prime</h3>
                     <p class="portfolio-card-text">Маркетинг</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio5.jpg" 
                     alt="коробки" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Проект Boxes</h3>
                     <p class="portfolio-card-text">Приложение</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio6.jpg" 
                     alt="монитор с картой мира" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Inspiration has no Borders</h3>
                     <p class="portfolio-card-text">Веб-сайт</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio7.jpg" 
                     alt="разворот книги с фотографиями девушек" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Издание Limited Edition</h3>
                     <p class="portfolio-card-text">Дизайн</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio8.jpg" 
                     alt="фотография этикетки" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Проект LAB</h3>
                     <p class="portfolio-card-text">Маркетниг</p>
-                    </div>
+                    </div></a>
                 </li>
                 <li>
+                    <a class="portfolio-shadow" href="">
                     <img src="./images/portfolio9.jpg" 
                     alt="открытый ноутбук" width="370">
                     <div class="portfolio-item">
                     <h3 class="portfolio-card-header" lang="en">Growing Business</h3>
                     <p class="portfolio-card-text">Приложение</p>
-                    </div>
+                    </div></a>
                 </li>
             </ul>
             </div>
@@ -142,7 +155,8 @@
     </main>
 
     <footer class="footer-information">
-        <div class="container">
+        <div class="container footer-container">
+        <div class="footer-container-2">
         <a class="logo-item-web-bottom" href="./index.html">Web<span class="logo-item-white">Studio</span></a>
         <address>
         <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
@@ -154,7 +168,37 @@
         <a class="address-info" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
+        <div class="footer-container-3">
+        <h3 class="join-footer">Присоединяйтесь</h3>
+        <ul class="profile-card-social">
+            <li width="20" height="20">
+                <a class="footer-card-icons-link" href="">
+                <svg class="profile-card-icons" width="20" height="20">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-instagram-icon1"></use>
+                </svg></a>
+            </li>
+            <li width="20" height="20">
+                <a class="footer-card-icons-link" href="">
+                <svg class="profile-card-icons" width="20" height="20">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-twitter-icon2"></use>
+                </svg></a>
+            </li>
+            <li width="20" height="20">
+                <a class="footer-card-icons-link" href="">
+                <svg class="profile-card-icons" width="20" height="20">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-facebook-icon3"></use>
+                </svg></a>
+            </li>
+            <li width="20" height="20">
+                <a class="footer-card-icons-link" href="">
+                <svg class="profile-card-icons" width="20" height="20">
+                    <use href="./images/icomoon/symbol-defs.svg#icon-linkedin-icon4"></use>
+                </svg></a>
+            </li>
+        </ul>
         </address>
+        </div>
         </div>
     </footer>
 </body>
