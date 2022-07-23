@@ -79,6 +79,8 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-selected {
@@ -125,6 +127,8 @@
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact:hover,
@@ -462,6 +466,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .favorite-styled-portfolio:hover,
@@ -584,6 +591,8 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
     fill: currentColor;
     color: #AFB1B8;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .profile-card-icons-link:hover,
@@ -598,6 +607,8 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .profile-card-icons:hover,
@@ -619,6 +630,9 @@ h1, h2, h3, h4, h5, h6, p {
     align-items: center;
     justify-content: center;
     color: #AFB1B8;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-companies:hover,
@@ -630,6 +644,8 @@ h1, h2, h3, h4, h5, h6, p {
 .portfolio-shadow {
     display: block;
     text-decoration: none;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 }
 
 .portfolio-shadow:hover,
@@ -637,6 +653,11 @@ h1, h2, h3, h4, h5, h6, p {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
      0px 1px 1px rgba(0, 0, 0, 0.14),
      0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-photo {
+    position: relative;
+    overflow: hidden;
 }
 
 .portfolio-item-li {
@@ -758,7 +779,9 @@ address {
     justify-content: center;
     fill: currentColor;
     color: #FFFFFF;
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-card-icons-link:hover,
