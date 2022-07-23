@@ -629,6 +629,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .portfolio-shadow {
     display: block;
+    text-decoration: none;
 }
 
 .portfolio-shadow:hover,
