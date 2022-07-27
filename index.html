@@ -44,6 +44,53 @@
     <main>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
+                <form class="form" name="signup_form" autocomplete="on">
+                    
+                    <div class="form-group" role="group" aria-labelledby="contact-details-head">
+                        <p class="input-header" id="contact-details-head">Оставьте свои данные, мы вам перезвоним</p>
+
+                    <div class="form-field">
+                    <label>
+                        Имя
+                        <input type="name" name="name" />
+                        <svg class="icon-input" width="12px" height="12px">
+                            <use href="./images/icomoon/symbol-defs.svg#icon-form-name-icon"></use>
+                        </svg>
+                      </label></div>
+                    
+                    <div class="form-field">
+                    <label>
+                        Телефон
+                        <input type="tel" name="phone_numbe" />
+                        <svg class="icon-input" width="13px" height="13px">
+                            <use href="./images/icomoon/symbol-defs.svg#icon-form-phone-icon"></use>
+                        </svg>
+                    </label></div>
+
+                    <div class="form-field">
+                    <label>
+                      Почта
+                      <input type="email" name="email" />
+                      <svg class="icon-input" width="12px" height="12px">
+                        <use href="./images/icomoon/symbol-defs.svg#icon-form-email-icon"></use>
+                    </svg>
+                    </label></div>
+
+                    <div class="form-field">
+                    <label>
+                        Комментарий
+                        <textarea class="comment" name="comment" rows="7" placeholder="Введите текст"></textarea>
+                    </label></div>
+                  
+                    <div class="checkbox-input">
+                    <label>
+                        <input type="checkbox" name="agree-license" value="agree" />
+                        Соглашаюсь с рассылкой и принимаю <a class="checkbox-input-link" href="">Условия договора</a> 
+                    </label></div>
+
+                    <button class="favorite-styled-input" type="submit">Отправить</button>
+                    </div>
+                  </form>
                 <button class="modal-btn" data-modal-close>
                     <svg class="modal-btn-icon" width="30px" height="30px">
                        <use href="./images/icomoon/symbol-defs.svg#icon-close-button"></use>
@@ -340,6 +387,18 @@
         </ul>
         </address>
         </div>
+
+        <div class="footer-container-3">
+            <h3 class="join-footer">Подпишитесь на рассылку</h3>
+            <form class="form-footer" name="signup_form" autocomplete="on">
+                <div class="form-field-footer">
+                    <label>
+                      <input type="email" name="email" placeholder="E-mail" />
+                    </label></div>
+                    <button class="favorite-styled-footer" type="submit">Подписаться</button>
+            </form>
+        </div>
+
         </div>
     </footer>
     <script src="./css/modal.js"></script>
