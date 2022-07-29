@@ -307,6 +307,10 @@ h1, h2, h3, h4, h5, h6, p {
     color: #757575;
 }
 
+.icon-input {
+    position: absolute;
+}
+
 .icon-input:hover,
 .icon-input:focus {
     color: #2196F3;
@@ -350,6 +354,43 @@ h1, h2, h3, h4, h5, h6, p {
 
 .checkbox-input-link {
     color: #2196F3;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.checkbox:checked + .icon {
+    background-color: #2196F3;
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: content-box;
+
+    border: 0px solid black;
+
+    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .benefits-list {
@@ -910,11 +951,47 @@ address {
 .form-field-footer {
     display: flex;
 
-    color: transparent;
+   /* color: transparent;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px; */
+}
+
+.input-field-footer {
+    width: 386px;
+    height: 50px;
+
+  /*  color: transparent; */
     background-color: #2F303A;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+}
+
+.favorite-styled-footer {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px solid black;
+
+    padding: 10px 29px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.icon-send-email {
+    margin-left: 10px;
 }
 
 /* footer */

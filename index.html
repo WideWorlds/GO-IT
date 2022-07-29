@@ -84,7 +84,8 @@
                   
                     <div class="checkbox-input">
                     <label>
-                        <input type="checkbox" name="agree-license" value="agree" />
+                        <input class="checkbox" type="checkbox" name="agree-license" value="agree" />
+                        <span class="icon"></span>
                         Соглашаюсь с рассылкой и принимаю <a class="checkbox-input-link" href="">Условия договора</a> 
                     </label></div>
 
@@ -393,9 +394,13 @@
             <form class="form-footer" name="signup_form" autocomplete="on">
                 <div class="form-field-footer">
                     <label>
-                      <input type="email" name="email" placeholder="E-mail" />
+                      <input class="input-field-footer" type="email" name="email" placeholder="E-mail" />
                     </label></div>
-                    <button class="favorite-styled-footer" type="submit">Подписаться</button>
+                    <button class="favorite-styled-footer" type="submit">Подписаться
+                        <svg class="icon-send-email" width="24px" height="24px">
+                            <use href="./images/icomoon/symbol-defs.svg#icon-icon-send-email"></use>
+                        </svg>
+                    </button>
             </form>
         </div>
 
