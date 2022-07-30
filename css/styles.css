@@ -296,7 +296,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .form-field label {
-    margin-bottom: 4px;
+   /* margin-bottom: 4px; */
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -334,6 +334,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    resize: none;
 }
 
 .comment:hover,
@@ -588,7 +589,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: block;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 40px;
+  /*  margin-bottom: 40px; */
     border: none;
     border-radius: 4px;
     padding: 10px 55px;
@@ -948,6 +949,11 @@ address {
     color: #FFFFFF;
 }
 
+.form-footer {
+    display: flex;
+    align-items: center;
+}
+
 .form-field-footer {
     display: flex;
 
@@ -967,6 +973,8 @@ address {
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+
+    margin-right: 12px;
 }
 
 .favorite-styled-footer {
