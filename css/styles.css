@@ -288,11 +288,18 @@ h1, h2, h3, h4, h5, h6, p {
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; 
+    padding-left: 42px;
 }
 
 .form-field input:hover,
 .form-field input:focus {
    border-color: #2196F3;
+}
+
+.form-field:hover .icon-input,
+.form-field:focus .icon-input {
+    color: #2196F3;
+    fill: #2196F3;
 }
 
 .form-field label {
@@ -307,8 +314,15 @@ h1, h2, h3, h4, h5, h6, p {
     color: #757575;
 }
 
+.input-svg {
+    position: relative;
+}
+
 .icon-input {
     position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icon-input:hover,
