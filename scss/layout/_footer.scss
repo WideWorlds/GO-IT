@@ -1,0 +1,124 @@
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-container-3 {
+    margin-left: 70px;
+}
+
+.footer-information {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+address {
+    font-style: normal;
+}
+
+.address-text {
+    margin-bottom: 9px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-info {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.address-info:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.join-footer {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-card-icons-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: currentColor;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-card-icons-link:hover,
+.footer-card-icons-link:focus {
+    fill: currentColor;
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.form-footer {
+    display: flex;
+    align-items: center;
+}
+
+.form-field-footer {
+    display: flex;
+
+   /* color: transparent;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px; */
+}
+
+.input-field-footer {
+    width: 386px;
+    height: 50px;
+
+  /*  color: transparent; */
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    margin-right: 12px;
+}
+
+.favorite-styled-footer {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0px solid black;
+
+    padding: 10px 29px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+/* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.icon-send-email {
+    margin-left: 10px;
+}
