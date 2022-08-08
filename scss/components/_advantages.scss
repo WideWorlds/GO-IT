@@ -1,0 +1,51 @@
+.benefits-list {
+    display: flex;
+    gap: 30px;
+}
+
+.benefits-list__item {
+    width: 270px;
+}
+
+.benefits-list__item::before {
+    display: inline-block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+    background-image: url(../images/benefits-antenna-icon1.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/benefits-clock-icon2.svg);
+}
+
+.icon-notebook::before {
+    background-image: url(../images/benefits-notebook-icon3.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/benefits-astronaut-icon4.svg);
+}
+
+.benefits-list__header {
+    margin-bottom: 10px;
+
+    color: #212121;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-list__text {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
