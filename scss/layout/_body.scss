@@ -1,7 +1,4 @@
-.benefits-list {
-    display: flex;
-    gap: 30px;
-}
+
 
 .activity-list {
     display: flex;
@@ -27,22 +24,7 @@
     gap: 30px;
 }
 
-.hero-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(
-        to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4) 
-    ),
-    url(../images/hero-section-background.png);
-    background-color: #2F303A;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 
 .section-two {
@@ -54,14 +36,7 @@
     padding-bottom: 94px;
 }
 
-.our-team {
-    background-color: #F5F4FA;
-}
 
-.team-member {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 .portfolio-item {
     padding-top: 20px;
@@ -77,33 +52,6 @@
     display: none;
 }
 
-.benefits-list__item {
-    width: 270px;
-}
-
-.benefits-list__item::before {
-    display: inline-block;
-    content: "";
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-}
-
-.icon-antenna::before {
-    background-image: url(../images/benefits-antenna-icon1.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/benefits-clock-icon2.svg);
-}
-
-.icon-notebook::before {
-    background-image: url(../images/benefits-notebook-icon3.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/benefits-astronaut-icon4.svg);
-}
 
 /*
 
@@ -181,25 +129,6 @@
     letter-spacing: 0.03em;
 }
 
-.benefits-list__header {
-    margin-bottom: 10px;
-
-    color: #212121;
-    list-style-type: none;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-.benefits-list__text {
-    color: #757575;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
-
 .activity-list__photo {
     position: relative;
 }
@@ -225,13 +154,7 @@
     text-transform: uppercase;
 }
 
-.profile-card {
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-    0px 1px 1px rgba(0, 0, 0, 0.14), 
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
+
 
 /*
 
@@ -261,88 +184,9 @@
 
 */
 
-.profile-card-header {
-    margin-bottom: 10px;
 
-    color: #212121;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
 
-.profile-card-text {
-    color: #757575;
-    line-height: 19px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 16px;
-}
 
-.profile-card-social {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.profile-card-icons-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: currentColor;
-    color: #AFB1B8;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.profile-card-icons-link:hover,
-.profile-card-icons-link:focus {
-    fill: currentColor;
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
-
-.profile-card-icons {
-    fill: currentColor;
- /*   display: flex;
-    align-items: center;
-    justify-content: center;  */
-}
-
-.profile-card-icons:hover,
-.profile-card-icons:focus {
-    fill: #FFFFFF;
-}
-
-.companies-list__icons {
-    fill: currentColor;
-}
-
-.companies-list__our-companies {
-    display: inline-block;
-    width: 170px;
-    height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #AFB1B8;
-
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.companies-list__our-companies:hover,
-.companies-list__our-companies:focus {
-    border: 1px solid #2196F3;
-    color: #2196F3;
-}
 
 .portfolio-shadow {
     display: block;
