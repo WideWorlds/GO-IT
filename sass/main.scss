@@ -1,13 +1,14 @@
+
 // layout styles
 @import './layout/header';
 @import './layout/body';
 @import './layout/footer';
 
 // base styles
-@import './base/base/';
+@import './base/_base.scss/';
 
 // components styles
-@import './components/buttons/';
+@import './components/_buttons.scss/';
 @import './components/advantages';
 @import './components/cards';
 @import './components/clients';
@@ -16,7 +17,7 @@
 @import './components/team';
 
 // utils styles
-@import './utils/variables/';
+@import './utils/_variables.scss/';
 
 
 /* footer */
