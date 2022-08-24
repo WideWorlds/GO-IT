@@ -1,6 +1,16 @@
-.benefits-list {
-    display: flex;
-    gap: 30px;
+
+
+@media screen and (min-width: 0px) {
+    .benefits-list {
+        display: block;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .benefits-list {
+        display: flex;
+        gap: 30px;
+    }
 }
 
 .benefits-list__item {
